@@ -6,7 +6,6 @@
 #
 # Commands:
 #   create <channel name> - Create channel
-#   archive <channel name> - Archive specified channel
 
 slack_api_key = process.env.SLACK_API_KEY
 
