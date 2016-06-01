@@ -2,12 +2,10 @@
 #   manipulate slack channels. create or archive
 #
 # Configuration:
-#   SLACK_API_KEY - Your slack API key
+#   SLACK_API_TOKEN - Your slack API token
 #
 # Commands:
 #   create <channel name> - Create channel
-
-slack_api_key = process.env.SLACK_API_KEY
 
 module.exports = (robot) ->
   Slack = require 'slack-node'
